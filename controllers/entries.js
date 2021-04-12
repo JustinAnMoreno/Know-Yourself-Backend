@@ -10,7 +10,7 @@ async function index (req, res) {
     }
    
 };
-ffff
+
 async function create (req, res) {
     try {
         const entry = await Entry.create(req.body);
