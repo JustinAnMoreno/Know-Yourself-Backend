@@ -6,10 +6,6 @@ const entrySchema = new Schema({
     entry:{
         type: String,
     },
-    // date:{
-    //     type: Date,
-    //     require: true,
-    // }
     }, 
 { timestamps: true });
 
