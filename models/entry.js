@@ -6,6 +6,9 @@ const entrySchema = new Schema({
     entry:{
         type: String,
     },
+    uid:{
+        type: String,
+    }
     }, 
 { timestamps: true });
 
